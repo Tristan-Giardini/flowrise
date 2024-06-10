@@ -49,7 +49,7 @@ const component = {
             title: 'Layout',
             type: 'string',
             initialValue: {
-                title: 'Image Bottom'
+                title: 'Image Bottom', value: 'flex-row'
             },
             options: {
               list: [
@@ -57,6 +57,21 @@ const component = {
                 { title: 'Image Bottom', value: 'flex-col' },
                 { title: 'Image Right', value: 'flex-row' },
                 { title: 'Image Left', value: 'flex-row-reverse' }
+              ],
+            }
+        },
+        {
+            name: 'copy',
+            title: 'Copy Alignment',
+            type: 'string',
+            initialValue: {
+                title: 'Center', value: 'text-center'
+            },
+            options: {
+              list: [
+                { title: 'Left', value: 'text-left' },
+                { title: 'Right', value: 'text-right' },
+                { title: 'Center', value: 'text-center' },
               ],
             }
         },

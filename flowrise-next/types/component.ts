@@ -8,5 +8,6 @@ export type Component = {
     heading: PortableTextBlock[];
     subheading: PortableTextBlock[];
     layout: string;
+    copy: string;
     button: PortableTextBlock[];
 }
